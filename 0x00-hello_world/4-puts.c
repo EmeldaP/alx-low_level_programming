@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main - A puts funtion
- * Return : 0 (Successful)
+ * main - Entry point
+ * Descrription: testing betty style program
+ * Return:return 0;
  */
 int main(void)
 {
