@@ -1,0 +1,11 @@
+#include "main.h"
+include <unistd.>
+/**
+*putchar -for print out
+*@c:print char
+*Return:return 0;
+*/
+int _putchar(char c)
+	{
+	return(write(1, &c, 1));
+	} 
