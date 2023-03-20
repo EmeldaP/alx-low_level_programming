@@ -24,7 +24,7 @@ int main(void)
 	}
 	else
 {
-printf("i%d is negative\n",  n);
+printf("%d is negative\n",  n);
 	}
 	return (0);
 }
