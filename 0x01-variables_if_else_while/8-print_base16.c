@@ -2,7 +2,7 @@
 /**
  * main - Prints all the numbers of base 16 in lowercase
  *
- * Return:return 0;
+ * Return: Always 0(Success);
  */
 int main(void)
 {
