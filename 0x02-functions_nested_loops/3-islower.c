@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * main -_islower to print alphabets in lower case
- *print lower case
- * Return: 1 if c is lower case. 0 otherwise
+ * check for lowercase character
+ * Return:1 if c is lowercase. Otherwise 0
  */
 int _islower(int c)
 {
@@ -14,5 +13,5 @@ else
 {
 return (0);
 }
--putchar('\n');
+-putchar ('\n');
 }
