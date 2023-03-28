@@ -23,7 +23,7 @@ for (p = 0; p <= i; p++)
 {
 if (p % 2 == 0)
 {
-_putchar(str[0]);
+_putchar(str[p]);
 }
 }
 _putchar('\n');
