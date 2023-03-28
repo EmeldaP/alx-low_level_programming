@@ -14,8 +14,8 @@ int p;
 
 while (*j != '\0')
 {
-length++;
 j++;
+length++;
 }
 i = length - 1;
 
