@@ -34,7 +34,7 @@ temp = *(n + j);
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 int inf = 0, i = 0, j = 0, digits = 0;
-int val1 = 0, val2 = 0, temp = 0;
+int val1 = 0, val2 = 0, temps = 0;
 
 while (*(n1 + i) != '\0')
 	i++;
@@ -54,23 +54,21 @@ if (j < 0)
 	val2 = 0;
 else
 	val2 = *(n2 + j) -'0';
-temp = val1 +  val2 + inf;
-if (temp >= 10)
+temps = val1 +  val2 + inf;
+if (temps >= 10)
 	inf = 1;
 else
 	inf = 0;
 if (digits >= (size_r - 1))
 	return (0);
-*(r + digits) = (temp % 10) + '0';
+*(r + digits) = (temps % 10) + '0';
 digits++;
 j--;
 i--;
 }
 if (digits == size_r)
-{
 	return (0);
 	*(r + digits) = '\0';
 	rev_string(r);
-}
 	return (r);
 }

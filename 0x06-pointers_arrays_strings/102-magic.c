@@ -2,7 +2,7 @@
 
 int main(void)
 {
-int n;
+	int n;
 int a[5];
 int *p;
 
@@ -16,12 +16,7 @@ p = &n;
  *  -only one statment
  *  -you are not alloed to code anything else than this line of code
  */
-printf("n = %p\n", &n);
-printf("a[0] = %p\n", &a[0]);
-printf("a[1] = %p\n", &a[1]);
-printf("a[2] = %p\n", &a[2]);
-printf("p = %p\n", p);
-printf("a[3] = %p\n", &a[3]);
+(p + 5) = 98;
 /*... so that this print 98\n */
 printf("a[2] = %d\n", a[2]);
 return (0);
