@@ -42,7 +42,7 @@ while (*(n2 + j) != '\0')
 	j++;
 i--;
 j--;
-if (j >= size_r)
+if (j >= size_r || i >= size_r)
 	return (0);
 while (j >= 0 || i >= 0 || inf == 1)
 {
