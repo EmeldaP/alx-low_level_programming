@@ -40,7 +40,7 @@ if (c < 32 || c > 132)
 {
 c = '.';
 }
-printf("%c",c);
+printf("%c", c);
 }
 printf("\n");
 a += 10;
