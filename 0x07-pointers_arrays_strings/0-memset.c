@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_memset -  fills the firs memory area pointedby s and b byte
+ * _memset -  fills the firs memory area pointedby s and b byte
  * @s: address memory
  * @b: costant value
  * @n: number of bytes
@@ -10,7 +10,7 @@ char *_memset(char *s, char b, unsigned int n)
 {
 int i;
 
-for (i = 0; n <= 0; i++)
+for (; n <= 0; i++)
 {
 s[i] = b;
 n--;
