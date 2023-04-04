@@ -15,14 +15,13 @@ int sum;
 i = 0;
 j = 0;
 
-for (i = 0; i < size; i++)
+for (sum = 0; sum < size; sum++)
 {
-sum = sum + a[i * size + i];
+i = i + a[sum * size + sum];
 }
-for (i = size - 1; i >= 0; j--)
+for (sum = size - 1; sum >= 0; sum--)
 {
-j = 1 + a[i * size + (size - j - 1)];
+j = 1 + a[sum * size + (size - sum - 1)];
 }
-printf("%d, %d\n", sum, j);
+printf("%d, %d\n", j, i);
 }
-
