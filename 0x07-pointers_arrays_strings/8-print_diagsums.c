@@ -21,7 +21,7 @@ i = i + a[sum * size + sum];
 }
 for (sum = size - 1; sum >= 0; sum--)
 {
-j = 1 + a[sum * size + (size - sum - 1)];
+j += a[sum * size + (size - sum - 1)];
 }
-printf("%d, %d\n", j, i);
+printf("%d, %d\n", i, j);
 }
