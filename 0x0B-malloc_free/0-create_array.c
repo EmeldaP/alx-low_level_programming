@@ -13,12 +13,9 @@ char *s;
 unsigned int i;
 
 s = malloc(sizeof(char) * size);
-
-for (i = 0; i < size; i++)
-
-s[i] = c;
-return (s);
-
 if (size == 0 || s == NULL)
 	return (NULL);
+for (i = 0; i < size; i++)
+s[i] = c;
+return (s);
 }
