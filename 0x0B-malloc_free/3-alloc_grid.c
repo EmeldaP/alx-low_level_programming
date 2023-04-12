@@ -21,7 +21,7 @@ if (i == NULL)
 
 for (x = 0; x < height; x++)
 {
-i = malloc(sizeof(int) * width);
+i[x] = malloc(sizeof(int) * width);
 
 if (i[x] == NULL)
 {
