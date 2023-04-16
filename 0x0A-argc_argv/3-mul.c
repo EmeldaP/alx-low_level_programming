@@ -25,7 +25,7 @@ if (s[i] >= '0' && s[i] <= '9')
 {
 digit = s[i] - '0';
 if (x % 2)
-digit =- digit;
+digit = -digit;
 n = n * 10 + digit;
 f = 1;
 
