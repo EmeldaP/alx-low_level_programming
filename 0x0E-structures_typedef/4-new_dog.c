@@ -19,7 +19,7 @@ return (i);
 }
 
 /**
- * _strcpy - copies string
+ * *_strcpy - copies string
  * @dest: pointer dest
  * @src: string to be copied
  * Return: dest
