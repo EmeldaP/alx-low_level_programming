@@ -10,7 +10,6 @@ if (d)
 {
 	/*freeing memmory of d by dereferencing struct*/
 free(d->name);
-free(d->age);
 free(d->owner);
 free(d);
 }
