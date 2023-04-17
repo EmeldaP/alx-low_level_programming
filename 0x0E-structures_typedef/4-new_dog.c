@@ -20,6 +20,7 @@ return (i);
 
 /**
  * *_strcpy - copies string
+ * include terminal null byte '\0'
  * @dest: pointer dest
  * @src: string to be copied
  * Return: dest
@@ -46,7 +47,7 @@ return (dest);
  * @name: name of the dog
  * @age: age of dog
  * @owner:new  owner
- * Return: pointer
+ * Return: pointer otherwise NULL
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
