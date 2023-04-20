@@ -47,7 +47,7 @@ return (a / b);
 /**
  * op_mod - Reminder of division of a and b
  * @a: integer
- * @c: integer
+ * @b: integer
  * Return: Remeinder of a and b
  */
 int op_mod(int a, int b)
